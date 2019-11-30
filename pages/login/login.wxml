@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="msg">
+    <text class="msg2user">{{msg2user}}</text>
+  </view>
+  <view class="logo">
+    <image class="logoimg" src="../../images/user1.png"></image>
+  </view>
+  <view>
+    <view class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <button class="loginbutton" bindtap="clicktologin">点击授权登录/注册</button>
+</view>
